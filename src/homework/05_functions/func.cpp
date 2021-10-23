@@ -34,8 +34,8 @@ public:
                 ++_p %= 2;
             }
  
-            if( res == Human ) cout << "CONGRATULATIONS HUMAN --- You won!";
-            else if( res == Computer ) cout << "NOT SO MUCH A SURPRISE --- I won!";
+            if( res == Human ) cout << "Congratulations you won!";
+            else if( res == Computer ) cout << "You Lost";
             else cout << "It's a draw!";
  
             cout << endl << endl;
